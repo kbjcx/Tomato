@@ -1,0 +1,23 @@
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+.countdown-digit {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+}
+.countdown-separator {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+.countdown-container span {
+    font-size: 1.2rem;
+}
